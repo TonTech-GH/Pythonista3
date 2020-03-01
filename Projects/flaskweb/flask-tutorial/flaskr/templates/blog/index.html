@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block header %}
+    <h1>{% block title %}Posts{% endblock %}</h1>
+    {% if g.user %}
+        <!-- ログイン済なら記事追加できる -->
+        <a class="action" href="{{ url_for('blog.create') }}">New</a>
+    {% endif %}
+{% endblock %}
+
+{% block content %}
+    {% for post in posts %}
+        <!-- 記事 -->
+        <article class="post">
+            <header>
+                <div>
+                    <!-- タイトル・著者・作成日時を表示 -->
+                    <h1>{{ post['title'] }}</h1>
+                    <div class="about">by {{ post['username'] }} on {{ post['created'].strftime('%Y-%m-%d') }}</div>
+                </div>
+                {% if g.user['id'] == post['author_id'] %}
+                    <!-- 自身が書いた記事は編集可能 -->
+                    <a class="action" href="{{ url_for('blog.update', id=post['id']) }}">Edit</a>
+                {% endif %}
+            </header>
+
+            <!-- 記事本文 -->
+            <p class="body">{{ post['body'] }}</p>
+        </article>
+
+        <!-- 最後の記事以外は下部に水平線を引く(loop.last は Jinja の forループ内で使える特別な変数) -->
+        {% if not loop.last %}
+            <hr>
+        {% endif %}
+
+    {% endfor %}
+{% endblock %}

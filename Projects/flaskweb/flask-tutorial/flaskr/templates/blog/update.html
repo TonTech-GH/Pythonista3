@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block header %}
+    <h1>{% block title %}Edit "{{ post['title'] }}"{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+    <!-- 記事編集用フォーム -->
+    <form method="POST">
+        <label for="title">Title</label>
+        <!-- 初回はpostのデータが使われる。不正なPOSTがあった場合はrequest側のデータが使われる。-->
+        <!-- requestはtemplateで自動的に使える変数 -->
+        <input name="title" id="title" value="{{ request.form['title'] or post['title'] }}" required>
+        <label for="body">Body</label>
+        <textarea name="body" id="body">{{ request.form['body'] or post['body'] }}</textarea>
+        <input type="submit" value="Save">
+    </form>
+    <hr>
+
+    <!-- 記事削除用フォーム -->
+    <form action="{{ url_for('blog.delete', id=post['id']) }}" method="POST">
+        <input class="danger" type="submit" value="Delete" onclick="return confirm('Are you sure?');">
+    </form>
+{% endblock %}

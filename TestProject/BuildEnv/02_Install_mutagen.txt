@@ -1,0 +1,29 @@
+# mutagen
+# mp3などのマルチメディアファイルの
+# タグ（メタデータ）を参照、編集できる
+
+# インストールコマンド(StaSHで入力)
+# インストール後にPythonistaの再起動が必要！！
+pip install mutagen
+
+# 出力(エラー出てるけどインストールできてる)
+[~/Documents]$ pip install mutagen
+Querying PyPI ... 
+Downloading package ...
+Opening: https://files.pythonhosted.org/packages/83/15/a21c25d71ab6907cf6463592adfe3b081f94877d2e43227df1d5b8e309a7/mutagen-1.41.0.tar.gz
+
+Save as: /private/var/mobile/Containers/Data/Application/395C9800-61EF-4518-910F-E00EBB5D61EA/tmp//mutagen-1.41.0.tar.gz (918286 bytes)
+    918286  [100.00%]
+Extracting archive file ...
+Archive extracted.
+Running setup file ...
+TypeError("a bytes-like object is required, not 'str'",)
+Failed to run setup.py
+Fall back to directory guessing ...
+Package installed: mutagen
+
+
+# インストール確認
+pip list
+mutagen (1.41.0) - read and write audio tags for many formats
+
