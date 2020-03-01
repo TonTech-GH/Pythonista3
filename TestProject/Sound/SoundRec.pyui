@@ -1,0 +1,58 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{61, 28}, {115, 54}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 1,
+          "frame" : "{{80, 104}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,-0.041667,-0.041667,1.000000)",
+          "title" : "REC",
+          "uuid" : "48197A57-D934-4791-9EA9-12037A58760C",
+          "background_color" : "RGBA(1.000000,0.934524,0.541667,1.000000)",
+          "class" : "Button",
+          "corner_radius" : 3,
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "name" : "btnRec",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{33, 97}, {176, 46}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label1",
+          "border_width" : 1,
+          "corner_radius" : 0,
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "29BEB575-1C31-46F3-9A0B-7744D756EB1F",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Label",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {240, 240}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]

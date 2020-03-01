@@ -1,0 +1,40 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{70, 40}, {180, 180}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "2E9EA65C-8573-4B93-9BC1-2B9A58D61E89",
+          "flex" : "LR",
+          "corner_radius" : 2,
+          "background_color" : "RGBA(0.208333,0.434524,1.000000,1.000000)",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "border_width" : 2,
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "title" : "",
+          "action" : "",
+          "class" : "Button",
+          "name" : "btn_add",
+          "font_size" : 50
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {320, 320}}",
+    "class" : "View",
+    "attributes" : {
+      "custom_class" : "MainView",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]

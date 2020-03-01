@@ -1,0 +1,278 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{115, 64}, {250, 32}}",
+        "class" : "SegmentedControl",
+        "attributes" : {
+          "name" : "segCon_a2",
+          "frame" : "{{100, 226}, {120, 29}}",
+          "uuid" : "4E931CEA-9286-45C5-8F82-E69E2313EB12",
+          "class" : "SegmentedControl",
+          "segments" : "通常|レア|夢詠み",
+          "flex" : "WLR"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{14, 64}, {94, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "WR",
+          "font_size" : 18,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "05E73D4B-3857-4B8A-BB20-FA9B1CFC1EF8",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "エリア2",
+          "name" : "label1",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{14, 112}, {94, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "WR",
+          "font_size" : 18,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "1C1F58FB-A8AB-4D28-8073-FC4608CFF2CF",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "エリア3",
+          "name" : "label2",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{115, 112}, {250, 32}}",
+        "class" : "SegmentedControl",
+        "attributes" : {
+          "name" : "segCon_a3",
+          "frame" : "{{100, 226}, {120, 29}}",
+          "uuid" : "CCC7D792-420E-428C-BB09-0F3B03675BC6",
+          "class" : "SegmentedControl",
+          "segments" : "通常|レア|夢詠み",
+          "flex" : "WLR"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{115, 160}, {167, 32}}",
+        "class" : "SegmentedControl",
+        "attributes" : {
+          "name" : "segCon_preBoss",
+          "frame" : "{{100, 226}, {120, 29}}",
+          "uuid" : "989527CF-FB92-4051-806B-4A0431C6936C",
+          "class" : "SegmentedControl",
+          "segments" : "無し|あり",
+          "flex" : "WLR"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{14, 208}, {94, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "WR",
+          "font_size" : 18,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "82531997-7E7E-49F9-98D2-6849E9BF0741",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "天冥値UP",
+          "name" : "label3",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{14, 256}, {94, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "WR",
+          "font_size" : 18,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "A8C484E1-8EC1-49DE-BAA4-35F519E446A6",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "白鍵",
+          "name" : "label4",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{115, 208}, {250, 32}}",
+        "class" : "SegmentedControl",
+        "attributes" : {
+          "name" : "segCon_up",
+          "frame" : "{{100, 226}, {120, 29}}",
+          "uuid" : "11523A5C-AF34-42F3-9E83-C94646C1CCD9",
+          "class" : "SegmentedControl",
+          "segments" : "無し|あり|編成せず",
+          "flex" : "WLR"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{14, 160}, {94, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "WR",
+          "font_size" : 18,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "2D7789E6-CAF7-4AD6-9DD5-05AC8F76819A",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "ボス前夢詠",
+          "name" : "label6",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{115, 256}, {167, 32}}",
+        "class" : "SegmentedControl",
+        "attributes" : {
+          "name" : "segCon_wKey",
+          "frame" : "{{100, 226}, {120, 29}}",
+          "uuid" : "5C40C87E-8A82-4C06-92D1-3F792BA881A5",
+          "class" : "SegmentedControl",
+          "segments" : "無し|あり",
+          "flex" : "WLR"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{105, 304}, {110, 42}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "446FC65E-84F4-47A2-AF4E-281A6446FF71",
+          "font_size" : 15,
+          "corner_radius" : 7,
+          "background_color" : "RGBA(1.000000,0.822222,0.466667,1.000000)",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,-0.388889,0.166667,1.000000)",
+          "border_width" : 2,
+          "title" : "追加！",
+          "action" : "self. BtnAdd_Tapped",
+          "class" : "Button",
+          "name" : "btnAdd",
+          "flex" : "WLR"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{241, 314}, {63, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "1409537C-6906-4736-82E1-1F9E872EF1AB",
+          "font_size" : 15,
+          "corner_radius" : 7,
+          "background_color" : "RGBA(0.700000,0.800000,1.000000,1.000000)",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "tint_color" : "RGBA(0.400000,0.400000,1.000000,1.000000)",
+          "border_width" : 0,
+          "title" : "取消し",
+          "action" : "self. BtnCancel_Tapped",
+          "class" : "Button",
+          "name" : "btnCancel",
+          "flex" : "WLR"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{75, 6}, {225, 50}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 1,
+          "action" : "self.BtnLoc_Tapped",
+          "flex" : "LR",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "",
+          "uuid" : "E35A11B1-3211-4FF1-932A-5733B7E8FF6C",
+          "class" : "Button",
+          "corner_radius" : 0,
+          "name" : "btnLoc",
+          "font_size" : 6
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{14, 354}, {345, 234}}",
+        "class" : "TextView",
+        "attributes" : {
+          "uuid" : "124785EA-4B33-4B6A-B81C-4CB7C33642B5",
+          "font_size" : 17,
+          "corner_radius" : 0,
+          "frame" : "{{60, 140}, {200, 200}}",
+          "editable" : true,
+          "border_width" : 1,
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "name" : "tvSum",
+          "flex" : "WH"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {375, 600}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
